@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="vocabulARy"/>
+  <meta property="og:image" content="http://i66.tinypic.com/2hevz4g.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="500" />
+  <meta property="og:image:height" content="400" />
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> 
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+
+  <title>vocabulARy</title>
+</head>
+<body>
+
+
+    <div class="container container-slide">
+      <div class="gradient-bg">
+        <div class="row">
+          <div class="col s12 center">
+
+            <h1> vocabulARy </h1>
+            <h6> language learning. in real time. </h6>
+
+            <img id="hololens-img" class="responsive-img" src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/3327928/d76d1d6c-a4e6-41d2-bc43-c9b49041a219.0.png" />
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-slide">
+      <div class="login-page desk-bg">
+        
+<!-- login -->
+    <div id="login-page" class="row">
+    <div class="col s12 z-depth-6 card-panel">
+      <h2 id="login-text">Login or Register</h2>
+
+      <form class="login-form">
+        <div class="row">
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">mail_outline</i>
+            <input class="validate" id="email" type="email">
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">lock_outline</i>
+            <input id="password" type="password">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">          
+          <div class="input-field col s12 m12 l12  login-text">
+              <input type="checkbox" id="remember-me" />
+              <label for="remember-me">Remember me</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <a class="btn waves-effect waves-light col s12">Login</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 m6 l6">
+            <p class="margin medium-small"><a>Register Now!</a></p>
+          </div>
+          <div class="input-field col s6 m6 l6">
+              <p class="margin right-align medium-small"><a>Forgot password?</a></p>
+          </div>          
+        </div>
+
+      </form>
+    </div>
+  </div> <!-- end login component-->
+      </div>
+  </div> <!-- end login page -->
+
+  <div class="container container-slide">
+    <div class="desk-bg">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="row" id="dropdown-wrapper">  
+        <!-- Dropdown Trigger -->
+    <a class='dropdown-button btn' data-activates='dropdown1'>Select Native Language</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!">English</a></li>
+      <li><a href="#!">Español</a></li>
+      <li><a href="#!">Français</a></li>
+      <li><a href="#!">Deutsch</a></li>
+      <li><a href="#!">普通話</a></li>
+    </ul>
+
+  </div>
+
+    </div>
+  </div>
+
+
+    <div class="container container-slide">
+    <div class="desk-bg">
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="row" id="dropdown-wrapper">  
+        <!-- Dropdown Trigger -->
+    <a class='dropdown-button btn' data-activates='dropdown2'>Select Goal Language</a>
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown2' class='dropdown-content'>
+      <li><a href="#!">Español</a></li>
+      <li><a href="#!">Français</a></li>
+      <li><a href="#!">Deutsch</a></li>
+      <li><a href="#!">普通話</a></li>
+      <li><a href="#!">Русский язык</a></li>
+    </ul>
+
+  </div>
+
+    </div>
+  </div>
+
+  <div class="container container-slide">
+    <div class="desk-bg">
+
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+        <h4 style="
+        text-align: center;
+    transform: translateY(60px);">
+    Draw a circle around items to learn their vocabulary term!</h4> 
+        <div id="circle-container" class="centered-circle">
+          <div id="halfclip">
+          <div class="halfcircle" id="clipped">
+          </div>
+          </div>
+          <div class="halfcircle" id="fixed">
+          </div>
+        </div>
+
+
+    </div>
+  </div>
+
+  <div class="container container-slide">
+    <div class="desk-bg">
+
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+        <h4 style="
+        text-align: center;
+    transform: translateY(60px);">
+    Area detected</h4> 
+        <div id="selection-outline" class="centered-circle">
+          
+        </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="container container-slide">
+    <div class="desk-bg">
+
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+        <h4 style="
+        text-align: center;
+    transform: translateY(60px);">
+      Processing image for items
+  </h4> 
+        <div class="preloader-wrapper big active" style="    margin-left: 46%;
+    margin-top: 15%;">
+    <div class="spinner-layer spinner-red-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+
+  <div class="container container-slide">
+    <div class="desk-bg">
+
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+        <h4 style="
+        text-align: center;
+    transform: translateY(60px);">
+      Translating to Español
+  </h4> 
+        <div class="preloader-wrapper big active" style="    margin-left: 46%;
+    margin-top: 15%;">
+    <div class="spinner-layer spinner-red-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+
+
+    <div class="container container-slide">
+    <div class="desk-bg-annotated">
+
+      <nav>
+        <div class="nav-wrapper">
+          <a class="brand-logo">vocabulARy</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+ 
+      
+    </div>
+  </div>
+
+
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+  <!-- esdf -->
+</body>
+</html>
