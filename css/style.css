@@ -1,6 +1,7 @@
 /* Mixins */
 body {
-  /*  font-family: 'Open Sans', sans-serif; */ }
+  /*  font-family: 'Open Sans', sans-serif; */
+  cursor: pointer; }
 
 h1, h2, h3, h4, h5, h6 {
   color: white; }
@@ -150,5 +151,7 @@ nav {
     opacity: 1; }
   100% {
     opacity: 1; } }
+.dropdownbutton3 {
+  margin-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
