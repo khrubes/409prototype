@@ -62,6 +62,13 @@ p {
     background-size: cover;
   }
 
+  .desk-bg-annotated-ru {
+    height: inherit;
+    padding: 0;
+    background-image: url("../img/desk409-ru.jpg");
+    background-size: cover;
+  }
+
 }
 
 .row {
@@ -94,7 +101,7 @@ p {
      transform: translate(-50%, -50%);
 }
 
-.dropdown-button, #dropdown1, #dropdown2 {
+.dropdown-button, #dropdown1, #dropdown2, #dropdown5, #dropdown6 {
   margin-left: 40%;
 }
 
